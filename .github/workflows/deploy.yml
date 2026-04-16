@@ -42,3 +42,5 @@ jobs:
           imageToDeploy: ${{ secrets.DOCKERHUB_USERNAME }}/golang-api-processing:latest
           containerAppName: golang-api-processing
           resourceGroup: ticha-rg-staging
+          targetPort: 8080
+          ingress: external
