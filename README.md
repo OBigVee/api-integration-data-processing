@@ -1,4 +1,4 @@
-# Stage 0: API Integration and Data Processing
+# API Integration and Data Processing
 
 A Go-based API that integrates with the Genderize API to classify names and determine prediction confidence.
 
